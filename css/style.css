@@ -2493,6 +2493,16 @@ span.error {
   font-weight: normal;
   text-decoration: underline;
 }
+.js-filter a {
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: underline;
+}
+.js-filter a:hover {
+  color: #f44055;
+  font-weight: normal;
+  text-decoration: underline;
+}
 .gsap-reveal a:hover {
   color: #f44055;
   font-weight: normal;
