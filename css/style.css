@@ -1123,7 +1123,7 @@ a:hover {
 
 .cover-v1.overlay {
   position: relative;
-  background-image: url(/images/cover_bg_1.jpg) !important;
+  background-image: url(../images/cover_bg_1.jpg) !important;
   background-size: cover;
   background-repeat: no-repeat;
   /* width: 100%; */
