@@ -58,10 +58,10 @@ a {
   transition: 0.3s all ease;
 }
 
-a,
+/* a,
 a:hover {
-  text-decoration: none !important;
-}
+  text-decoration: none;
+} */
 
 .unslate_co--site-inner {
   margin-bottom: 400px;
@@ -1773,7 +1773,7 @@ figure.dotted-bg:before {
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 900;
-  line-height:18px;
+  line-height: 18px;
   /* text-align: center; */
 }
 
@@ -2073,7 +2073,7 @@ figure.dotted-bg:before {
 }
 
 .portfolio-single-inner .heading-portfolio-single-h2 {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   font-size: 50px;
   font-weight: 900;
 }
@@ -2171,11 +2171,11 @@ figure.dotted-bg:before {
 
 .detail-v1 .detail-label {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .detail-v1 .detail-val {
@@ -2491,23 +2491,21 @@ span.error {
 
 .gsap-reveal a {
   color: #ffffff;
-  font-weight: normal;
-  text-decoration: underline;
+  font-weight: bold;
 }
 .js-filter a {
   color: #ffffff;
-  font-weight: normal;
-  text-decoration: underline;
+  font-weight: bold;
 }
 .js-filter a:hover {
   color: #f44055;
   font-weight: normal;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .gsap-reveal a:hover {
   color: #f44055;
   font-weight: normal;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 @media (max-width: 991.98px) {
   .gsap-reveal.gsap-reveal-filter {
@@ -2583,6 +2581,33 @@ span.error {
   margin-bottom: 10px;
 }
 
-.skils-list{
+.skils-list {
   list-style: none;
+}
+.cover-v1.handealz {
+  position: relative;
+  background-image: url(../images//handealz/bg1.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-position: center center;
+}
+
+.cover-v1.salon {
+  position: relative;
+  background-image: url(../images//salon/bg2.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-position: center center;
+}
+.cover-v1.portfolio:before {
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.7);
 }
