@@ -2584,6 +2584,16 @@ span.error {
 .skils-list {
   list-style: none;
 }
+.cover-v1.portfolio:before {
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.7);
+}
 .cover-v1.handealz {
   position: relative;
   background-image: url(../images//handealz/bg1.png) !important;
@@ -2601,13 +2611,13 @@ span.error {
   /* width: 100%; */
   background-position: center center;
 }
-.cover-v1.portfolio:before {
-  z-index: 9;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
-  background: rgba(0, 0, 0, 0.7);
+
+.cover-v1.gaary {
+  position: relative;
+  background-image: url(../images/gaary/18.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-position: center center;
 }
+
