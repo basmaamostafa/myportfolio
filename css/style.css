@@ -1883,12 +1883,12 @@ figure.dotted-bg:before {
 
 .testimonial-slider .owl-nav .owl-prev,
 .single-slider .owl-nav .owl-prev {
-  left: 60px;
+  left: 10px;
 }
 
 .testimonial-slider .owl-nav .owl-next,
 .single-slider .owl-nav .owl-next {
-  right: 60px;
+  right: 10px;
 }
 
 .testimonial-slider .owl-dots,
