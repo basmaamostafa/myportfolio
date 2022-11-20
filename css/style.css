@@ -53,15 +53,19 @@ body,
 }
 
 a {
+  color: #fff;
+  font-weight: bold;
+
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
 
-/* a,
 a:hover {
-  text-decoration: none;
-} */
+  color: #d63447 !important;
+  font-weight: 600;
+  text-decoration: underline;
+}
 
 .unslate_co--site-inner {
   margin-bottom: 400px;
@@ -2620,4 +2624,11 @@ span.error {
   /* width: 100%; */
   background-position: center center;
 }
-
+.cover-v1.beam {
+  position: relative;
+  background-image: url(../images/beam/26.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-position: center center;
+}
