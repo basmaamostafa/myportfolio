@@ -200,7 +200,7 @@ a:hover {
 .unslate_co--site-nav .unslate_co--site-logo {
   font-size: 2.5rem;
   color: #fff;
-  /* font-weight: 700; */
+  font-weight: 500;
   font-family: 'Grand Hotel', cursive;
   text-decoration: none;
 }
@@ -2222,8 +2222,9 @@ figure.dotted-bg:before {
 
 .unslate_co--footer .footer-site-logo a {
   font-size: 45px;
-  font-weight: thin;
-  font-family: 'Grand Hotel', cursive;  color: #fff;
+  font-weight: lighter !important;
+  font-family: 'Grand Hotel', cursive;
+  color: #fff;
   text-decoration: none;
 }
 
