@@ -201,6 +201,7 @@ a:hover {
   color: #fff;
   font-weight: 700;
   /* font-family: tanPeal; */
+  text-decoration: none;
 }
 
 .unslate_co--site-nav .unslate_co--site-logo span {
@@ -2215,6 +2216,7 @@ figure.dotted-bg:before {
   font-weight: 900;
   font-family: 'Raleway', sans-serif;
   color: #fff;
+  text-decoration: none;
 }
 
 .unslate_co--footer .footer-site-logo a span {
@@ -2253,7 +2255,8 @@ figure.dotted-bg:before {
 
 .unslate_co--footer .footer-site-social li a:hover,
 .unslate_co--footer .footer-site-social li a:focus {
-  color: #fff;
+  color: #fff !important;
+  text-decoration: none;
 }
 
 .loader-portfolio-wrap {
@@ -2644,7 +2647,7 @@ span.error {
 }
 .cover-v1.original {
   position: relative;
-  background-image: url(../images/original/Tote\ bag\ on\ the\ bench\ near\ the\ sitting\ woman_15.png) !important;
+  background-image: url(../images/original/Tote\bag\on\the\bench\near\the\sitting\woman_15.png) !important;
   background-size: cover;
   background-repeat: no-repeat;
   /* width: 100%; */
@@ -2652,7 +2655,16 @@ span.error {
 }
 .cover-v1.vfarm {
   position: relative;
-  background-image: url(../images/vfarm/Woman\ using\ MacBook\ Pro\ outdoors_My\ farm.png) !important;
+  background-image: url(../images/vfarm/Woman\using\MacBook\Pro\outdoors_My\farm.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-position: center center;
+}
+
+.cover-v1.trainery {
+  position: relative;
+  background-image: url(../images/trainery/63.jpg) !important;
   background-size: cover;
   background-repeat: no-repeat;
   /* width: 100%; */
