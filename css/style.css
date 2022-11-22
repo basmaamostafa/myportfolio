@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 @font-face {
   font-family: tanPeal;
   src: url(/Font/TAN-PEARL.woff);
@@ -62,7 +63,7 @@ a {
 }
 
 a:hover {
-  color: #E55D2F !important;
+  color: #e55d2f !important;
   font-weight: bold;
   text-decoration: none;
 }
@@ -129,7 +130,7 @@ a:hover {
 .btn.btn-outline-pill.btn-custom-light:hover,
 .btn.btn-outline-pill.btn-custom-light:active,
 .btn.btn-outline-pill.btn-custom-light:focus {
-  border-color: #E55D2F;
+  border-color: #e55d2f;
   /* background-color: #fff; */
   /* color: #000; */
   font-weight: bold;
@@ -197,17 +198,20 @@ a:hover {
 }
 
 .unslate_co--site-nav .unslate_co--site-logo {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   color: #fff;
-  font-weight: 700;
-  /* font-family: tanPeal; */
+  /* font-weight: 700; */
+  font-family: 'Grand Hotel', cursive;
   text-decoration: none;
 }
-.unslate_co--site-nav .unslate_co--site-logo:hover span{
+.unslate_co--site-nav .unslate_co--site-logo:hover span {
   color: #fff !important;
 }
+.unslate_co--site-nav.scrolled.sleep:hover span {
+  color: #000 !important;
+}
 .unslate_co--site-nav .unslate_co--site-logo span {
-  color: #E55D2F;
+  color: #e55d2f;
 }
 
 .unslate_co--site-nav .site-nav-ul,
@@ -873,7 +877,7 @@ a:hover {
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:hover,
 .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:hover {
-  color: #E55D2F;
+  color: #e55d2f;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:before,
@@ -883,7 +887,7 @@ a:hover {
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active,
 .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active {
-  color: #E55D2F;
+  color: #e55d2f;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active:before,
@@ -1000,7 +1004,7 @@ a:hover {
 
 .unslate_co--site-mobile-menu ul a:hover,
 .unslate_co--site-mobile-menu ul li a:hover {
-  color: #E55D2F;
+  color: #e55d2f;
 }
 
 .unslate_co--site-mobile-menu ul > li > ul > li > a {
@@ -1767,7 +1771,7 @@ figure.dotted-bg:before {
   font-size: 69px;
   font-weight: 900;
   font-family: 'Arimo', sans-serif;
-  color: #E55D2F;
+  color: #e55d2f;
 }
 
 .counter-v1 .number-wrap .append-text {
@@ -1799,8 +1803,8 @@ figure.dotted-bg:before {
   line-height: 40px;
   position: relative;
   z-index: 1;
-  -webkit-box-shadow: 0px 30px 0 -20px #E55D2F;
-  box-shadow: 0px 30px 0 -20px #E55D2F;
+  -webkit-box-shadow: 0px 30px 0 -20px #e55d2f;
+  box-shadow: 0px 30px 0 -20px #e55d2f;
 }
 
 @media (max-width: 991.98px) {
@@ -2208,7 +2212,7 @@ figure.dotted-bg:before {
 .unslate_co--footer a:hover {
   color: #fff;
 }
-.unslate_co--footer .footer-site-logo a:hover span{
+.unslate_co--footer .footer-site-logo a:hover span {
   color: #fff !important;
 }
 
@@ -2217,15 +2221,14 @@ figure.dotted-bg:before {
 }
 
 .unslate_co--footer .footer-site-logo a {
-  font-size: 30px;
-  font-weight: 900;
-  font-family: 'Raleway', sans-serif;
-  color: #fff;
+  font-size: 45px;
+  font-weight: thin;
+  font-family: 'Grand Hotel', cursive;  color: #fff;
   text-decoration: none;
 }
 
 .unslate_co--footer .footer-site-logo a span {
-  color: #E55D2F;
+  color: #e55d2f;
 }
 
 .unslate_co--footer .footer-site-social {
@@ -2511,12 +2514,12 @@ span.error {
   font-weight: bold;
 }
 .js-filter a:hover {
-  color: #E55D2F;
+  color: #e55d2f;
   font-weight: normal;
   /* text-decoration: underline; */
 }
 .gsap-reveal a:hover {
-  color: #E55D2F;
+  color: #e55d2f;
   font-weight: bold;
   /* text-decoration: underline; */
 }
