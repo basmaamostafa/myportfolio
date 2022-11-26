@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
-@font-face {
-  font-family: tanPeal;
-  src: url(/Font/TAN-PEARL.woff);
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+/* @font-face {
+  font-family: Ballmain;
+  src: url(/Font/Ballmain.otf);
+} */
 body {
-  font-family: 'Raleway', sans-serif;
-  color: #fff;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;  color: #fff;
   font-size: 16px;
   line-height: 30px;
   /* font-weight: 300; */
@@ -198,10 +199,10 @@ a:hover {
 }
 
 .unslate_co--site-nav .unslate_co--site-logo {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
-  font-weight: 500;
-  font-family: 'Grand Hotel', cursive;
+  /* font-weight: 500; */
+  font-family: 'Courgette', cursive;
   text-decoration: none;
 }
 .unslate_co--site-nav .unslate_co--site-logo:hover span {
@@ -1457,7 +1458,7 @@ a:hover {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.8);
   font-weight: normal;
-  /* font-family: 'Arimo', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .portfolio-item:hover .overlay,
@@ -1770,7 +1771,7 @@ figure.dotted-bg:before {
 .counter-v1 .number-wrap .number {
   font-size: 69px;
   font-weight: 900;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #e55d2f;
 }
 
@@ -1991,7 +1992,7 @@ figure.dotted-bg:before {
 }
 
 .blog-post-entry .post-meta {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-outline-style-v1 .form-group {
@@ -2221,9 +2222,9 @@ figure.dotted-bg:before {
 }
 
 .unslate_co--footer .footer-site-logo a {
-  font-size: 45px;
-  font-weight: lighter !important;
-  font-family: 'Grand Hotel', cursive;
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: 'Courgette', cursive;
   color: #fff;
   text-decoration: none;
 }
