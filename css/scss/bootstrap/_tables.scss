@@ -5,14 +5,13 @@
 .table {
   width: 100%;
   margin-bottom: $spacer;
-  color: $table-color;
+  // color: $table-color;
   background-color: $table-bg; // Reset for nesting within parents with `background-color`.
 
   th,
   td {
     padding: $table-cell-padding;
     vertical-align: top;
-    border-top: $table-border-width solid $table-border-color;
   }
 
   thead th {
@@ -20,9 +19,6 @@
     border-bottom: (2 * $table-border-width) solid $table-border-color;
   }
 
-  tbody + tbody {
-    border-top: (2 * $table-border-width) solid $table-border-color;
-  }
 }
 
 
@@ -131,17 +127,18 @@
   color: $table-dark-color;
   background-color: $table-dark-bg;
 
-  th,
-  td,
-  thead th {
-    border-color: $table-dark-border-color;
-  }
+  // th,
+  // td,
+  // thead th {
+  //   border-color: $table-dark-border-color;
+  // }
 
-  &.table-bordered {
-    border: 0;
-  }
+  // &.table-bordered {
+  //   border: 0;
+  // }
 
-  &.table-striped {
+  // &
+  .table-striped {
     tbody tr:nth-of-type(odd) {
       background-color: $table-dark-accent-bg;
     }
