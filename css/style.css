@@ -264,7 +264,6 @@ a:hover {
   color: #f4f4f4;
   font-size: 14px;
   position: relative;
-  
 }
 
 .unslate_co--site-nav .site-nav-ul > li > a:before,
@@ -2698,6 +2697,14 @@ span.error {
 .cover-v1.trainery {
   position: relative;
   background-image: url(../images/trainery/63.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-position: center center;
+}
+.cover-v1.amazon {
+  position: relative;
+  background-image: url(../images/Amazon/99.jpg) !important;
   background-size: cover;
   background-repeat: no-repeat;
   /* width: 100%; */
