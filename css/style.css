@@ -1617,7 +1617,7 @@ a:hover {
 
 .lead {
   font-size: 18px;
-  line-height: 30px;
+  /* line-height: 30px; */
 }
 
 .relative {
@@ -2530,11 +2530,11 @@ span.error {
 }
 
 .gsap-reveal a {
-  color: #F4F4F4fff;
+  color: #f4f4f4;
   font-weight: bold;
 }
 .js-filter a {
-  color: #F4F4F4fff;
+  color: #f4f4f4;
   font-weight: bold;
 }
 .js-filter a:hover {
